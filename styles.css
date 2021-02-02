@@ -1,0 +1,288 @@
+body {
+font-family: 'Raleway', sans-serif !important;
+font-family: 'Roboto', sans-serif !important;
+padding: 0px;
+margin: 0px;
+}
+.container{
+    padding: 30px !important;
+}
+  p{
+      font-size: 16px !important;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* style the container */
+  .container {
+    border-radius: 40px;
+    background-color: #f2f2f2;
+    padding: 20px 0 30px 0;
+  } 
+#personal{ display: none;}
+#final{ display: none;}
+#course{ display: none;}
+#complete{display: none;}
+#submit-end{display: none;}
+
+
+  .rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+  
+  /* style inputs and link buttons */
+  input,select,
+  .btn {
+    width: 100%;
+    padding: 2px;
+    border: 2px solid black !important;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none; /* remove underline from anchors */;
+  }
+  
+  input:hover,
+  .btn:hover {
+    opacity: 1;
+    background-color: #47caf0;
+  }
+  button{
+    box-shadow: 2px 6px 0px 0px black;
+  }
+  /* add appropriate colors to fb, twitter and google buttons */
+  .fb {
+    background-color: #3B5998 !important;
+    color: white;
+  }
+  
+  .twitter {
+    background-color: #55ACEE !important;
+    color: white;
+  }
+  
+  .google {
+    background-color: #dd4b39 !important;
+    color: white;
+  }
+  
+  /* style the submit button */
+  input[type=submit] {
+    background-color: #4CAF50 !important;
+    color: white;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Two-column layout */
+  .col {
+    float: left;
+    width: 50%;
+    margin: auto;
+    padding: 0 50px;
+    margin-top: 6px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* vertical line */
+  .vl {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border: 2px solid #ddd;
+    height: 175px;
+  }
+  
+  /* text inside the vertical line */
+  .vl-innertext {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    padding: 8px 10px;
+  }
+  
+  /* hide some text on medium and large screens */
+  .hide-md-lg {
+    display: none;
+  }
+  
+  /* bottom container */
+  .bottom-container {
+    text-align: center;
+    background-color: #666;
+    border-radius: 0px 0px 4px 4px;
+  }
+
+  /* home background image */
+
+    .home-back{
+        background-image: url("images/banner.jpg");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    h1.text{
+        padding: 30px;
+        margin: 50px auto;
+        color: white;
+    }
+    .register-form{
+        margin: 0px auto;
+    }
+    .space-up{
+        margin: 10px auto;
+    }
+    h4{
+        color: white !important;
+        text-align: center;
+        font-size: 12px;
+    }
+    span{
+        color: red !important;
+        text-align: center;
+        font-size: 12px;
+    }
+.rating{
+    margin-left: -42%;
+}
+  .course-data{
+      padding: 10px;
+  }
+  .space-lg{
+      margin: 30px auto;
+  }
+  .drop{
+      width: 100%;
+      padding: 10px;
+  }
+  .marg
+  {
+      margin: 0px 20px;
+  }
+  .marg-sm
+  {
+      margin: 2px 10px;
+  }
+  .course-det{
+     padding:0px 20px !important;
+  }
+  .course-center{
+    text-align: center;
+  }
+  .text-pad
+  {
+      padding: 100px 0px !important;
+      text-align: center;
+  }
+  .all-marg-text{
+      margin: 10px 0px !important;
+  }
+
+  .bdy-text{
+      background-color: #e91856;
+      color:#e4710e;
+  }
+.butt-size{
+    width:10%; 
+    float: right; 
+    margin-top: 0px;
+}
+.butt-size1{
+    width: 19%;
+    float: right;
+    margin-top: 32px;
+}
+.butt-size2{
+    width: 10%;
+    float: right;
+    margin-top: -50px;
+}
+.personal-img{
+    margin-top: 15%;
+     margin-bottom: 35%;
+}
+  /* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (min-width: 320px) and (max-width: 767px){
+    .col {
+      width: 100%;
+      margin-top: 0;
+    }
+    /* hide the vertical line */
+    .vl {
+      display: none;
+    }
+    /* show the hidden text on small screens */
+    .hide-md-lg {
+      display: block;
+      text-align: center;
+    }
+    .butt-size{
+        width:100%; 
+        float: right; 
+        margin-top: 0px;
+    }
+    .butt-size1{
+        width:100%; 
+        float: right; 
+        margin-top: 0px;
+    }
+    .butt-size2{
+        width:100%; 
+        float: right; 
+        margin-top: 0px;
+    }
+    .personal-img{
+        margin-top: 10px;
+         margin-bottom: 10px;
+    }
+    .rating{
+        margin-left: -23%;
+    }
+  }

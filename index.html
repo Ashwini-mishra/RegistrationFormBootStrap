@@ -1,0 +1,436 @@
+<html>
+    <title>
+        Register
+    </title>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="./bootstrap.min.css">
+        <script src="./bootstrap.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=PT+Sans&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto&display=swap" rel="stylesheet">   
+    </head>
+    <body>
+        <!--  Login form  -->
+
+    <section>
+        <div class="container bg-dark">
+            <div class="row">
+                <div class="col-md-6 home-back">
+                    <div>
+                        <h1 class="text">Welcome to the College Of Computation</h1>
+                    </div>
+                    <!-- <img src="images/banner.jpg" alt="banner-left"> -->
+                </div>
+                <div class="col-md-6">
+                    <div class="container">
+                        <!-- form -->
+                        <form>
+                            <div class="row">
+                                <h2 style="text-align:center">Follow Us On</h2>
+                                <div class="col">
+                                    <a href="#" class="fb btn">
+                                        <i class="fa fa-facebook fa-fw"></i> Follow Us On Facebook
+                                    </a>
+                                    <a href="#" class="twitter btn">
+                                        <i class="fa fa-twitter fa-fw"></i> Follow Us On Twitter
+                                    </a>
+                                    <a href="#" class="google btn"><i class="fa fa-google fa-fw">
+                                        </i> Follow Us On Google+
+                                    </a>
+                                </div>
+
+                                <!-- <div class="col">
+                                    <div class="hide-md-lg">
+                                        <p>Or sign in manually:</p>
+                                    </div>
+
+                                    <input type="text" name="username" placeholder="Username" required>
+                                    <input type="password" name="password" placeholder="Password" required>
+                                    <input type="submit" value="Login">
+                                </div> -->
+
+                            </div>
+                        </form>
+                        <!-- //end form -->
+                    </div>
+
+                    <!-- <div class="bottom-container">
+                        <div class="row">
+                            <div class="col">
+                                <a href="#" style="color:white" class="btn">Sign up</a>
+                            </div>
+                            <div class="col">
+                                <a href="#" style="color:white" class="btn">Forgot password?</a>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- //end  Login form -->
+
+ <!-- Registration Form -->
+
+ <!-- <section id="first">
+    <div class="container bg-dark" style="padding: 0px !important;">
+        <div class="row register-form ">
+            <div class="col-md-12">
+                <div>
+                    <h4>Student Registration Form</h4>
+                    <p><span><b>* </b> All The Block Should Be Filled Carefully All Blocks Are Compulsory </span>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section> -->
+
+<section id="top">
+    <div class=" container bg-info">
+        <div> <h4>Student Registration Form</h4>
+            <p><span><b>* </b> All The Block Should Be Filled Carefully All Blocks Are Compulsory </span>
+            </p>
+            <div class="row">
+                <p>Name :</p>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name">
+                </div>
+            </div>
+        </div>
+        <div class="space-up">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>SAP Id :</p>
+                    <div class="input-group mb-2 mr-sm-2">
+                        <input type="text" class="form-control" id="inlineFormInputGroupUsername2"
+                            placeholder="Sap No.">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">@kmit.edu.in</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <p>Email Address</p>
+                    <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2"
+                        placeholder="eg:Aman@gmail.com">
+                </div>
+            </div>
+        </div>
+        <div class="space-up">
+            <legend class="col-form-label col-sm-4 pt-0 all-marg-text">Select the course name :</legend><br>
+            <select class="custom-select col-sm-8 course-data">
+              <option selected>Choose The Course</option>
+              <option value="bca">Bca</option>
+              <option value="mca">Mca</option>
+              <option value="btec">B.tec</option>
+            </select>
+        </div>
+
+         <!-- next button -->
+         <div class="form-group row ">
+            <div class="col-sm-10 space-lg">
+              <button type="submit" class="btn btn-primary butt-size2" id="reg-1">Next</button>
+            </div>
+          </div>
+          <!-- //end next -->
+
+</section>
+
+<section id="personal">
+    <div class="container bg-info">
+        <div class="row"> <h4>Personal Details</h4>
+            <div class="col-md-6">
+                <label for="birthday " class="all-marg-text">DOB</label>
+                <input type="date" id="birthday" name="birthday" >
+                <div>
+                    <div class="row">
+                        <p class="space-up all-marg-text">Gender</p>
+                        <div class="form-check col-md-3">
+                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                          <label class="form-check-label" for="gridRadios1">
+                          Male
+                          </label>
+                        </div>
+                        <div class="form-check col-md-3">
+                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                          <label class="form-check-label" for="gridRadios2">
+                           female
+                          </label>
+                        </div>
+                        <div class="form-check col-md-3 ">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                            <label class="form-check-label" for="gridRadios2">
+                             Other
+                            </label>
+                          </div>
+                        <div class="form-check disabled col-md-3">
+                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+                          <label class="form-check-label" for="gridRadios3">
+                           No discloser
+                          </label>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- <input type="submit" value="Submit"> -->
+                <p class=" all-marg-text">Phone Number</p>
+                <input class="form-control" type="tel" placeholder="+91 9301804470" id="example-tel-input">
+                <label for="Country" class="space-up">Country</label>
+                <select id="Country" name="cars" class="drop">
+                <option value="volvo">India</option>
+                <option value="saab">Sri lanka</option>
+                <option value="fiat">Bangladesh</option>
+                <option value="audi">China</option>
+                </select>
+            
+                <div class="form-row">
+                    <div>
+                        <label for="validationCustom03" class="all-marg-text">Flat / House No.</label>
+                        <input type="text" class="form-control space-up" id="validationCustom03" placeholder="Flat/House no." required>
+                        <div class="invalid-feedback">
+                        Please provide a valid Address.
+                        </div>
+                    </div>
+                    <div>
+                    <label for="validationCustom03" class="all-marg-text">City</label>
+                    <input type="text" class="form-control" id="validationCustom03" placeholder="City" required>
+                    <div class="invalid-feedback">
+                        Please provide a valid city.
+                    </div>
+                    </div>
+                    <div>
+                    <label for="validationCustom04" class="all-marg-text">State</label>
+                    <input type="text" class="form-control" id="validationCustom04" placeholder="State" required>
+                    <div class="invalid-feedback">
+                        Please provide a valid state.
+                    </div>
+                    </div>
+                    <div>
+                    <label for="validationCustom05" class="all-marg-text">Zip</label>
+                    <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" required>
+                    <div class="invalid-feedback">
+                        Please provide a valid zip.
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <img src="images/address.jpg" alt="Address" width="100%" class="personal-img">
+                <div>
+                    <button type="submit" class="btn btn-primary butt-size1" id="reg-2" >Next</button>
+                </div>
+            </div>
+        </div>
+        <!-- next button -->
+        <!-- <div class="form-group row ">
+            <div class="col-sm-10 space-lg">
+              <button type="submit" class="btn btn-primary butt-size" id="reg-2">Next</button>
+            </div>
+          </div> -->
+          <!-- //end next -->
+    </div>
+</section>
+
+<!-- course detail -->
+
+<section id="course">
+    <div class="container bg-info">
+        <div class="row course-center">
+            <div class="row " >
+            <h4 class="all-marg-text">Course Detail</h4>
+            <div class="col-md-12 course-det">
+                <p>The Compulsory Subjects</p>
+                <input class="form-control course-center" type="text" placeholder="JAVA" readonly>
+                <input class="form-control course-center" type="text" placeholder="DBMS" readonly>
+                <input class="form-control course-center" type="text" placeholder="C++" readonly>
+                <input class="form-control course-center" type="text" placeholder="PYTHON" readonly><br>
+
+                <p>Choose The Elective Subject</p>
+                <div class="form-check form-check-inline marg">
+                    <label class="form-check-label">
+                      <input class="form-check-input marg-sm" type="checkbox" id="inlineCheckbox1" value="option1"> Artificial Intelligence
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline marg">
+                    <label class="form-check-label">
+                      <input class="form-check-input marg-sm" type="checkbox" id="inlineCheckbox2" value="option2"> Cloud Computing
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline marg">
+                    <label class="form-check-label">
+                      <input class="form-check-input marg-sm" type="checkbox" id="inlineCheckbox3" value="option3"> Internet of things 
+                    </label>
+                  </div>
+                  <div class="form-check form-check-inline marg">
+                    <label class="form-check-label">
+                      <input class="form-check-input marg-sm" type="checkbox" id="inlineCheckbox3" value="option3"> Machine Learning 
+                    </label>
+                  </div> <button type="submit" class="btn btn-primary butt-size" id="reg-3" >next</button>
+            </div>
+        </div>
+         <!-- next button -->
+         <!-- <div class="form-group row ">
+            <div class="col-sm-10 space-lg">
+              <button type="submit" class="btn btn-primary butt-size" id="reg-3">Next</button>
+            </div>
+          </div> -->
+          <!-- //end next -->
+    </div>
+</section>
+
+<!-- //course detail -->
+
+<!-- final detail -->
+
+<section id="final">
+    <div class="container bg-info">
+        <div class="row">
+            <div class="col-md-12" style="text-align: center;">
+                <div>
+                    <h4 class="all-marg-text">Files Attachments</h4>
+                    <p>Attach Your College Registration Form</p>
+                    <div>
+                        <label class="custom-file">
+                            <input type="file" id="file" class="custom-file-input">
+                            <span class="custom-file-control"></span>
+                          </label>
+                    </div>
+                    <!-- <div>
+                        <div class="form-group row">
+                            <label for="example-text-input" class="col-2 col-form-label">About The Course :</label>
+                            <div class="col-10">
+                              <input class="form-control text-pad" type="text" placeholder="write something briefly about the courses....  " id="example-text-input">
+                            </div>
+                          </div>
+                    </div> -->
+                </div><br>
+                <p>OR</p><br>
+                <p>Provide link of the online form</p>
+                <div class="col-auto">
+                    <div class="input-group mb-2">
+                      <div class="input-group-prepend">
+                        <div class="input-group-text">https://</div>
+                      </div>
+                      <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Username">
+                    </div>
+                  </div>
+                  <!-- Default switch -->
+                <div>
+                <div class="form-check form-switch" style="margin-top: 30px;">
+                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" />
+                    <label class="form-check-label" for="flexSwitchCheckDefault">Agree with all the terms and conditions and all the details are mentioned are correct</label>
+                </div>
+                </div>
+            </div>
+        </div>
+         <!-- next button -->
+         <div class="form-group row ">
+            <div class="col-sm-10 space-lg">
+              <button type="submit" class="btn btn-primary butt-size" id="reg-4">Next</button>
+            </div>
+          </div>
+          <!-- //end next -->
+    </div>
+</section>
+
+<!-- // final detail -->
+
+<!-- close -->
+<section id="complete">
+    <div class="container" style="background-color: #5b6552;">
+        <div class="row" style="text-align: center;">
+            <div>
+                <h4>Complete The Registration</h4>
+            </div>
+           <div > <p>Rate the App</p></div><br>
+            <div class="rate rating col-md-12">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text">1 star</label>
+              </div>
+              <div class="col-md-6"></div>
+                <!-- next button -->
+                <div class="form-group row ">
+                    <div class="col-sm-10 space-lg">
+                    <button type="submit" class="btn btn-primary butt-size" id="reg-5" >Submit</button>
+                    </div>
+                </div>
+                <!-- //end next -->
+        </div>
+    </div>
+</section>
+<!-- //close -->
+<section id="submit-end">
+   <div class="container bg-info">
+    <div class="row">
+        <div style="text-align: center;">
+            <h2>Registration Completed..</h2>
+            <p>Thank you</p>
+        </div>
+    </div>
+   </div>
+</section>
+
+    </body>
+    <script>
+        $(document).ready(function(){
+     $("#reg-1").click(function(){
+       $("#personal").css({display:"block"});
+       $("#top").css({display:"none"});
+     });
+   });
+
+   $(document).ready(function(){
+     $("#reg-2").click(function(){
+       $("#course").css({display:"block"});
+       $("#personal").css({display:"none"});
+     });
+   });
+   $(document).ready(function(){
+     $("#reg-3").click(function(){
+       $("#final").css({display:"block"});
+       $("#course").css({display:"none"});
+     });
+   });
+   $(document).ready(function(){
+     $("#reg-4").click(function(){
+       $("#complete").css({display:"block"});
+       $("#final").css({display:"none"});
+     });
+   });
+   $(document).ready(function(){
+     $("#reg-5").click(function(){
+       $("#submit").css({display:"block"});
+       $("#complete").css({display:"none"});
+      
+     });
+   });
+   $(document).ready(function(){
+     $("#reg-5").click(function(){
+       $("#submit-end").css({display:"block"});
+       $("#submit").css({display:"none"});
+     });
+   });
+
+   </script>
+</html>
